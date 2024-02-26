@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Configurando o Body */
+body{
+    /* Adicionando a imagem no fundo da tela */
+    background-image: url('../imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+/* Configurando o Header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* Adiciona o . pois se trata de uma classe */
+.logo{
+    /* Define uma Largura para o Logo */
+    width: 80px;
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+}
+
+h1{
+    font-size: 120px;
+    color: white;
+    word-spacing: 350px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.rocket{
+    width: 300px;
+    height: 700px;
+    position: absolute;
+}
+
+.clouds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    position: relative;
+}
+
+.cloudLeft,
+.cloudRight {
+    width: 50%;
+}
